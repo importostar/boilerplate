@@ -1,5 +1,5 @@
 ---
-title: qprocesstest.py
+title: qprocesstest
 date: 2020-05-07
 ---
 Example Python program qprocesstest.py
@@ -25,7 +25,8 @@ This program creates a PyQt GUI
 
 ## Code
 
-Example program:
+Example Python PyQt program :
+
     #!/usr/bin/env python3
     
     from PyQt5.QtCore import QProcess
