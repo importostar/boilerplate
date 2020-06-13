@@ -25,6 +25,7 @@ This program creates a PyQt GUI
 
 ## Code
 
+Example program:
     #!/usr/bin/env python3
     
     from PyQt5.QtCore import QProcess
