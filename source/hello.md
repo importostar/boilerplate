@@ -5,7 +5,7 @@ date: 2019-02-07
 
 ## Hello world
 
-Welcome to GitPress. This is your first post.
+Welcome to GitPress. This is your first post, test.
 
 ## Useful links
 
