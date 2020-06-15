@@ -245,3 +245,4 @@ Python example
 
 - Articles: https://python-commandments.org/
 - Python shell: https://bsdnerds.org/learn-python/
+- Tutorial: https://pythonprogramminglanguage.com/

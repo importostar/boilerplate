@@ -231,3 +231,4 @@ Example Python PyQt program :
 
 - Articles: https://python-commandments.org/
 - PyQt: https://pythonpyqt.com/
+- Tutorial: https://pythonprogramminglanguage.com/
