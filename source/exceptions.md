@@ -11,9 +11,6 @@ To check the Python version use:
 ## Modules
 
 * import sys
-* import sys
-* import sys
-* import sys
 
 ## Classes
 
@@ -25,9 +22,10 @@ To check the Python version use:
 
 ## Code
 
-Python example
+Python examples of various exceptions
 
-    #Generic exception handling
+Generic exception handling
+
     try:
         Value = int(input("Type a number between 1 and 10: "))
     except:
@@ -47,7 +45,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Basic exception handling
+Basic exception handling
+
     try:
         Value = int(input("Type a number between 1 and 10: "))
     except ValueError:
@@ -67,7 +66,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Multiple exceptions with single except clause
+Multiple exceptions with single except clause
+
     try:
         Value = int(input("Type a number between 1 and 10: "))
     except (ValueError, KeyboardInterrupt):
@@ -87,7 +87,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Multiple exceptions with multiple except clauses no.1
+Multiple exceptions with multiple except clauses no.1
+
     try:
         Value = int(input("Type a number between 1 and 10:"))
     except ValueError:
@@ -112,7 +113,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Exception with argument
+Exception with argument
+
     import sys
     try:
         File = open('myfile.txt')
@@ -131,7 +133,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #List of arguments
+List of arguments
+
     import sys
     try:
         File = open('myfile.txt')
@@ -148,7 +151,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #List of arguments with names
+List of arguments with names
+
     import sys
     try:
         File = open('myfile.txt')
@@ -175,7 +179,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Multiple exceptions with multiple except clauses no.2
+Multiple exceptions with multiple except clauses no.2
+
     try:
         Value1 = int(input("Type the first number: "))
         Value2 = int(input("Type the second number: "))
@@ -205,7 +210,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Nested exceptions with 'try again' input
+Nested exceptions with 'try again' input
+
     TryAgain = True
     while TryAgain: #Loop until you entered integer number
         try:
@@ -231,7 +237,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Raise exception
+Raise exception
+
     try:
         raise ValueError
     except ValueError:
@@ -242,7 +249,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Raise excweption with passing user error information
+Raise excweption with passing user error information
+
     try:
         Ex = ValueError()
         Ex.userMessage = "Value Error"
@@ -255,7 +263,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Custom raise exception
+Custom raise exception
+
     class CustomValueError(ValueError):
         def __init__(self, arg):
             self.strerror = arg
@@ -272,7 +281,8 @@ Python example
     -----------------------------------------------------------------
     '''
     
-    #Raise exception with finally clause
+Raise exception with finally clause
+
     import sys
     try:
         raise ValueError
